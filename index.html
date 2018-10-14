@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Henry Kwok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+  <link rel="stylesheet" href="assets/stylesheets/animate.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700">
+  <link href="https://fonts.googleapis.com/css?family=Niramit:300,400,500,600,700" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800,900"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+    <a class="navbar-brand scroll active" href="#home">HOME</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="true" aria label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse show" id="navbarTogglerDemo02" style>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link scroll" href="#profile-section">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll" href="#interest-section">Interest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll" href="#experiences-section">Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll" href="#portfolio-section">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll" href="#photo-section">Photos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="header-content" id="home">
+      <div class="container-fluid mx-auto">
+        <div class="jumbotron bg-transparent">
+          <h1 class="title">Hello! <br> I am Henry</h1>
+            <i class="fas fa-angle-double-down animated bounce infinite" id="arrow-down"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!--body-->
+  <!--My basic info-->
+  <section class="container-fluid" id="profile-section">
+    <div class="about-me">
+      <i class="fas fa-user-circle"></i>
+      <h2 id="about-title">Profile</h2>
+      <h4 class="intro">A new web developer, software engineer</h4>
+      <p id="self-intro">Nowadays, we are living in a world surrounding with new technology. <br>
+        It is inevitable to learn it for a better future.</p>
+      </p>
+      <hr>
+      <img class="profilePic" src="assets/images/home/Profile-1.JPG" alt="Profile-pic" id="pro-pic">
+      <div class="about-info">
+        <p class="span">Name</p>
+        <p class='personal'>Kwok Tsz Shing</p>
+        <p class="span">Living District</p>
+        <p class='personal'>Sham Shui Po</p>
+        <p class="span">Email</p>
+        <p class='personal'><a href="mailto:kwok_tsz_shing@hotmail.com">kwok_tsz_shing@hotmail.com</a></p>
+      </div>
+      <div class="social-links">
+        <a href='https://www.facebook.com/henry.kt'>
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href>
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Interest-->
+  <section class="container" id="interest-section">
+    <h2 class="interest-title">Interest</h2>
+    <p class="quotes">"Study history, study history. <br>
+      In history lies all the secrets of statecraft." <br>
+      ~ Winston Churchill ~</p>
+    <hr>
+    <div class="row">
+      <div class="interest-container">
+        <div class="interest">
+          <i class="far fa-newspaper animated flipInX" id="interest-icons"></i>
+          <p>Current Affairs</p>
+        </div>
+        <div class="interest">
+          <i class="fas fa-landmark animated flipInX" id="interest-icons"></i>
+          <p>History</p>
+        </div>
+        <div class="interest">
+          <i class="fas fa-laptop-code animated flipInX" id="interest-icons"></i>
+          <p>Coding</p>
+        </div>
+      </div>
+
+      <div class="interest-container">
+        <div class="interest">
+          <i class="fas fa-mobile-alt animated bounceInUp" id="interest-icons"></i>
+          <p>New Technology</p>
+        </div>
+        <div class="interest">
+          <i class="fas fa-film animated bounceInUp" id="interest-icons"></i>
+          <p>Movie</p>
+        </div>
+        <div class="interest">
+          <i class="fas fa-futbol animated bounceInUp" id="interest-icons"></i>
+          <p>Soccer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Work experiences-->
+  <section class="container bg-transparent" id="experiences-section">
+    <div class="row">
+      <h2 id="exp-title">Experiences</h2>
+      <hr>
+      <div class="exp-head">
+        <i class="fas fa-briefcase" id="exp-icon"></i>
+        <h3 class="expe-title">Career</h3>
+      </div>
+
+      <div class="career-info">
+        <p><strong>Headstart Group Limited</strong></p>
+        <p class="work-period">Mar 2017-Aug 2018</p>
+        <p class="worktitle"><strong>Officer, Quality Management Department</strong></p>
+        <ul class="hidden-phone">
+          <li>Managing a team of Teaching Assistant</li>
+          <li>Ensuring smooth operation of all school programmes</li>
+          <li>Handling Cambridge Exam applications</li>
+        </ul>
+      </div>
+
+      <div class="career-info">
+        <p><strong>Sushi Express (HK) Co. Ltd.</strong></p>
+        <p class="work-period">Aug 2016-Feb 2017</p>
+        <p class="work-title"><strong>Leasing Assistant</strong></p>
+        <ul class="hidden-phone">
+          <li>Maintaining tenancy database and records</li>
+          <li>Preparing reports</li>
+          <li>Assisting in lease term negotiation</li>
+        </ul>
+      </div>
+
+      <div class="career-info">
+        <p><strong>Miniso Company Limited</strong></p>
+        <p class="work-period">Aug 2015-May 2016</p>
+        <p class="work-title"><strong>Project Executive</strong></p>
+        <ul class="hidden-phone">
+          <li>Communicating with different stackholders on fitting-out work</li>
+          <li>Preparation work for new shops opening</li>
+          <li>Monitoring store renovation</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Education background-->
+  <section class="container bg-transparent" id="edu-section">
+    <div class="row">
+      <hr>
+      <i class="fas fa-graduation-cap" id="exp-icon"></i>
+      <h3 id="education">Education</h3>
+
+      <div class="edu-details">
+        <p id="university"><strong>City University of Hong Kong</strong></h4>
+          <p id="study-period">Sep 2012-July 2015</p>
+          <p id="study"><strong>BSocSc (Hons) in Social Sciences</strong></p>
+          <p id="major">Major in Public Policy, Managemnet and Politics</p>
+      </div>
+
+      <div class="edu-details">
+        <p id="university"><strong>Umea University, Sweden</strong></h4>
+          <p id="study-period">Jan 2014-June 2014</p>
+          <p id="study"><strong>Student Exchange</strong></p>
+          <p id="major">Exchange in Sweden for nearly 6 months</p>
+      </div>
+
+      <div class="edu-details">
+        <p id="university"><strong>Hong Kong Community College</strong></h4>
+          <p id="study-period">Sep 2010-June 2012</p>
+          <p id="study"><strong>Associate of Arts</strong></p>
+          <p id="major">Programme covers China Studies, Psychology</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Portfolio-->
+  <section class="container" id="portfolio-section">
+    <h2 class="portfolio-title">Portfolio</h2>
+    <hr>
+    <div class="row row-alt center">
+      <div class="col-md-6 col-sm-12 col-xs-12 img-fluid img-responsive" id="folio-info">
+        <a href="#">
+          <img class="portfolio-img img-fluid img-responsive" src="assets/images/album/tokyostation.jpg" alt="Project1">
+          <div class="hint no-gutters">Canvas<span class="word">First Animation I have done</span></div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-sm-12 col-xs-12 img-fluid img-responsive" id="folio-info">
+        <a href="#">
+          <img class="portfolio-img img-fluid img-responsive" src="assets/images/album/edo-tokyo.jpg" alt="Project2">
+          <div class="hint no-gutters">HTML<span class="word">You will see it soon</span></div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-sm-12 col-xs-12 img-fluid img-responsive" id="folio-info">
+        <a href="#">
+          <img class="portfolio-img" src="assets/images/album/yansukuni.jpg" alt="Project3">
+          <div class="hint no-gutters">CSS<span class="word">You will see it soon</span></div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-sm-12 col-xs-12 img-fluid img-responsive" id="folio-info">
+        <a href="#">
+          <img class="portfolio-img img-fluid img-responsive" src="assets/images/album/rainbow.jpg" alt="Project4">
+          <div class="hint no-gutters">Javascript<span class="word">You will see it soon</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Carosel Photos-->
+  <section class="container bg-transparent" id="photo-section">
+    <div class="row">
+      <h2 class="photo">Photos</h2>
+      <hr>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/album/Graduation1.JPG" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>University Graduation in 2015</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/Aurora1.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aurora in Umea, Sweden</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/Aurora3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aurora in Umea, Sweden</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/arctic.JPG" alt="Fourth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cross the Arctic Circle</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/dogs2.JPG" alt="Fifth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dog Sleeding in Sweden</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/dogs5.JPG" alt="Sixth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dog Sleeding in Sweden</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/stockholm.JPG" alt="7th slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Stockholm View</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/tokyostation.jpg" alt="8th slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tokyo Station</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/rainbow.jpg" alt="9th slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Rainbow Bridge</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/album/tsukiji.jpeg" alt="10th slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Visted Tsukiji Market before it moved</h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <section class="container-fluid" id="contact-section">
+    <footer class="row">
+      <div id="cv">
+        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Download my CV</a>
+      </div>
+      <div class="social-link">
+        <a href='https://www.facebook.com/henry.kt'>
+          <i class="fab fa-facebook animated bounceInLeft delay-1.5s"></i>
+        </a>
+        <a href="https://www.instagram.com/91henrykt/">
+          <i class="fab fa-instagram animated bounceInLeft delay-1.5s"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/henry-kwok-5200b7101/">
+          <i class="fab fa-linkedin-in animated bounceInLeft delay-1.5s"></i>
+        </a>
+        <a href="mailto:kwok_tsz_shing@hotmail.com">
+          <i class="fas fa-envelope animated bounceInLeft delay-1.5s"></i>
+        </a>
+      </div>
+      <div id="copyright">
+        <small>&copy; 2018 Henry Kwok. All rights reserved.</small>
+      </div>
+    </footer>
+  </section>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/navbar.js"></script>
+
+</body>
