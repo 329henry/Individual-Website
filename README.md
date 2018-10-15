@@ -5,6 +5,9 @@ This project is to design a personal website for my study in Acclerate bootcamp.
 
 It is built by using HTML, CSS, Bootstrap and Jquery.
 
+You can scroll down the website to view other sections. 
+For image gallery, you can press left or right arrow to switch photos.
+
 ---
 ## Resources for this project
 
